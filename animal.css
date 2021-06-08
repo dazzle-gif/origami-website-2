@@ -1,0 +1,97 @@
+body {
+    background-color:pink;
+}
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: cornsilk;
+    font-family: 'Arial';
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    border-radius: 550px;
+    font-weight: 100;
+    text-align:center;
+    align-items: center;
+    line-height: 100px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.8);
+}
+
+.matter {
+    text-align:left;
+    background:rgb(109, 170, 228) ;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.7);
+}
+
+
+li {
+    font-family:"Berlin Sans FB";
+      font-size: 20px;
+      color:#000000;
+      text-align: left;
+      line-height:40px;
+}
+
+h2 {
+font-family:"Comic Sans MS";
+  font-size: 30x;
+  color:rgb(255, 255, 255);
+  text-align-last: left;
+  line-height:70px;
+  text-decoration: underline;
+}
+
+
+.grid {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.grid img{
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    display:flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.make {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin:30px;
+    padding:25px;
+    position:relative;
+    justify-content:space-evenly;
+    border-radius: 20px;
+    font-family:"Kristen ITC";
+    width:310px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+
+.make:hover{
+    transform: scale(1.1);
+}
+
+p {
+    color:black;
+    font-family:"Comic Sans MS";
+  font-size: 30px;
+  text-align-last: center;
+  line-height:70px;
+  text-decoration: underline;
+}
+.make li {
+    text-align: center;
+    
+}
+
+.make:hover li{
+transition-duration:0.7s;
+opacity:1;
+}
